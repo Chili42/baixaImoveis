@@ -35,8 +35,7 @@ if __name__ == '__main__':
         imoveis['foto']  = imovel.find_all('td')[8].text.strip()
         imoveis['cidade'] = imovel.find_all('td')[9].text.strip()
         imoveis['estado'] = imovel.find_all('td')[10].text.strip()
-
-print(imoveis)
+        print(imoveis)
 
         
    
